@@ -7,10 +7,12 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Entity
 @AllArgsConstructor
 @Getter
+@NoArgsConstructor
 public class Parc {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
