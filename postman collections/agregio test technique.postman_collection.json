@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "13898ced-fb85-479c-95c2-d8a90a38b332",
+		"name": "agregio test technique",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13254324"
+	},
+	"item": [
+		{
+			"name": "Creer un parc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"test1\",\n    \"type\": \"SOLAIRE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/parcs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parcs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Créer une offre",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/offres",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"offres"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
