@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"test1\",\n    \"type\": \"SOLAIRE\"\n}",
+					"raw": "{\n    \"name\": \"Parc 1\",\n    \"type\": \"SOLAIRE\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -40,7 +40,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \"marche\": \"SECONDAIRE\",\n    \"blockHoraires\":[\n         {\n            \"dateDebut\": \"2024-10-19T10:00:30\",\n            \"dateFin\": \"2024-10-19T11:00:00\",\n            \"quantiteEnergieProduiteMW\": 100,\n            \"prixPlancherEuro\": 10.05\n         },\n                  {\n            \"dateDebut\": \"2024-10-19T11:00:00\",\n            \"dateFin\": \"2024-10-19T12:00:00\",\n            \"quantiteEnergieProduiteMW\": 110,\n            \"prixPlancherEuro\": 11.03\n         }\n    ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -55,6 +55,48 @@
 					"port": "8080",
 					"path": [
 						"offres"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtenir les offres",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/offres?marche=SECONDAIRE",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"offres"
+					],
+					"query": [
+						{
+							"key": "marche",
+							"value": "SECONDAIRE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtenir les parcs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/parcs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"parcs"
 					]
 				}
 			},

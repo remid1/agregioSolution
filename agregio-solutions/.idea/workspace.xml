@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d85be9e-053e-4ccd-8ed6-e8af0752ccfd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/AgregioSolutionsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/domain/BlocHoraire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/domain/Marche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/domain/Offre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/domain/Parc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/domain/ParcType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/domain/ProductionElectriciteHistorique.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/persistence/OffreRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/persistence/ParcRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/offre/OffreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/offre/creer/CreerOffreRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/offre/creer/CreerOffreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/offre/getAll/GetAllOffreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/offre/getAll/OffreFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/parc/ParcController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/parc/creer/CreerParcService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/parc/creer/ParcRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/parc/getAll/GetAllParcService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rdelattre/agregio_solutions/AgregioSolutionsApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar!/lombok/Value.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/6.2.2/spring-web-6.2.2.jar!/org/springframework/web/bind/annotation/RestController.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2sMDx2gscmifCvi3dRlnS8QpflS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AgregioSolutionsApplication.executor": "Debug",
+    "Maven.agregio-solutions [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/remi/Téléchargements/agregio-solutions/spring",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rdelattre.agregio_solutions.usecase.offre" />
+      <recent name="com.rdelattre.agregio_solutions.usecase.parc.creer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/rdelattre/agregio_solutions/usecase/offre/creer" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d85be9e-053e-4ccd-8ed6-e8af0752ccfd" name="Changes" comment="" />
+      <created>1738256794560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738256794560</updated>
+    </task>
+    <servers />
+  </component>
+</project>
